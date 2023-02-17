@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>RSA Example</title>
+  </head>
+  <body>
+    <h1>RSA Example</h1>
+
+    <label for="message">Enter message to encrypt:</label>
+    <input type="text" id="message">
+
+    <button id="encryptButton">Encrypt</button>
+
+    <label for="encryptedMessage">Encrypted message:</label>
+    <input type="text" id="encryptedMessage" readonly>
+
+    <button id="decryptButton">Decrypt</button>
+
+    <label for="decryptedMessage">Decrypted message:</label>
+    <input type="text" id="decryptedMessage" readonly>
+
+    <script src="rsa.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
